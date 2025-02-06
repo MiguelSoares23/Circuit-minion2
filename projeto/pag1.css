@@ -1,0 +1,72 @@
+body {
+  color: black;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    gap: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+  color: #6c53fc;
+}
+
+nav {
+  background-color: #0a369d;
+  padding: 0px 0px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+.header-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 20px; /* Adiciona espaçamento ao redor do header */
+}
+
+.header-img {
+  max-width: 300px; /* Define o tamanho máximo da imagem */
+  margin-right: 20px; /* Espaço entre a imagem e o título */
+}
+
+.header-container2 {
+  display: flex;
+  flex-direction: column; /* Organiza o título acima da imagem */
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+.header-img2 {
+  max-width: 300px; /* Define o tamanho máximo da imagem */
+  margin-top: 10px; /* Espaço entre o título e a imagem */
+}
+
+
+
+.active {
+  background-color: #6c53fc; /* Cor de fundo diferente para destacar */
+  color: white; /* Mantém a cor do texto */
+  border-radius: 5px; /* Bordas arredondadas */
+  padding: 8px 12px; /* Mantém o mesmo espaçamento */
+}
+
