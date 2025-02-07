@@ -19,16 +19,16 @@ a {
 }
 
 
-nav a:hover {
+.oi a:hover {
   color: #6c53fc;
 }
 
-nav {
+.oi {
   background-color: #0a369d;
   padding: 0px 0px;
 }
 
-nav a {
+.oi a {
   color: white;
   font-weight: bold;
   text-decoration: none;
