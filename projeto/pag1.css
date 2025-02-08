@@ -13,10 +13,6 @@ ul {
     gap: 20px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
 
 
 .oi a:hover {
@@ -68,5 +64,10 @@ a {
   color: white; /* Mantém a cor do texto */
   border-radius: 5px; /* Bordas arredondadas */
   padding: 8px 12px; /* Mantém o mesmo espaçamento */
+}
+
+main a {
+  color: blue; /* Links dentro do <main> ficarão azuis */
+  text-decoration: underline; /* Adiciona o sublinhado para indicar que é um link */
 }
 
