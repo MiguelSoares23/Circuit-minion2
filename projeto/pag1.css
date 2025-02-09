@@ -62,7 +62,7 @@ ul {
 .active {
   background-color: #6c53fc; /* Cor de fundo diferente para destacar */
   color: white; /* Mantém a cor do texto */
-  border-radius: 5px; /* Bordas arredondadas */
+  border-radius: 15px; /* Bordas arredondadas */
   padding: 8px 12px; /* Mantém o mesmo espaçamento */
 }
 

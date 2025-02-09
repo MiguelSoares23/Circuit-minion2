@@ -45,7 +45,7 @@ nav a {
 .active {
   background-color: #6c53fc; /* Cor de fundo diferente para destacar */
   color: white; /* Mantém a cor do texto */
-  border-radius: 5px; /* Bordas arredondadas */
+  border-radius: 15px; /* Bordas arredondadas */
   padding: 8px 12px; /* Mantém o mesmo espaçamento */
 }
 
@@ -58,22 +58,22 @@ nav a {
     <nav>
         <ul>
             <li>
-                <a href="pag1.html" class="active">ods</a>
+                <a href="pag1.html">ods</a>
             </li>
             <li>
-                <a href="nossoprojeto.html" class="active">Nosso projeto</a>
+                <a href="nossoprojeto.html">Nosso projeto</a>
             </li>
             <li>
-                <a href="inscreva.html" class="active">Inscreva-se</a>
+                <a href="inscreva.html">Inscreva-se</a>
             </li>
             <li>
-                <a href="motivos.html" class="active">Motivos</a>
+                <a href="motivos.html">Motivos</a>
             </li>
             <li>
-                <a href="entreemcontato.html" class="active">Entre em contato</a>
+                <a href="entreemcontato.html">Entre em contato</a>
             </li>
             <li>
-                <a href="sobrenos.html" class="active">Sobre nós</a>
+                <a href="sobrenos.html">Sobre nós</a>
             </li>
         </ul>
     </nav>
@@ -88,5 +88,19 @@ nav a {
         </p>
         <img src="./img/ods78.jpg" class="header-img3" alt="Imagem ODS"></img>
     </div>
+    <script>
+        // Pega o nome da página atual (exemplo: "pag1.html")
+        const currentPage = window.location.pathname.split("/").pop();
+      
+        // Seleciona todos os links do menu
+        const menuLinks = document.querySelectorAll("nav a");
+      
+        menuLinks.forEach(link => {
+          // Compara o link com a página atual e adiciona a classe 'active'
+          if (link.getAttribute("href") === currentPage) {
+            link.classList.add("active");
+          }
+        });
+      </script>
 </body>
 </html>
