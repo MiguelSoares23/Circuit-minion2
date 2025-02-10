@@ -85,10 +85,10 @@ a {
 .header-container3 {
   display: flex;
   flex-direction: column; /* Organiza o título acima da imagem */
-  align-items: center; /* Centraliza os itens horizontalmente */
-  justify-content: center; /* Centraliza os itens verticalmente */
-  height: 100vh; /* Define a altura para ocupar toda a altura da tela */
-  margin: 0; /* Remove margens para garantir que o conteúdo esteja realmente no centro */
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  text-align: center;
+  height: 100vh; /* Faz ocupar toda a tela */
 }
 
 .header-img3 {
@@ -107,10 +107,13 @@ a {
 
 .header-img4 {
   max-width: 300px; /* Define o tamanho máximo da imagem */
-  margin-top: 10px; /* Espaço entre o título e a imagem */
+  margin: 10px auto; /* Centraliza horizontalmente */
+  display: block; /* Evita alinhamento indesejado */
 }
 
-
+h1, h2 {
+  font-family: cursive;
+}
 
 
     </style>
@@ -147,8 +150,10 @@ a {
         </p>
         <p>Nosso projeto é focado no tópico 7.2 da ods que se refere à energia limpa e acessível, tendo em mente essa questão 
             tivemos ideias de pôr isso em prática de formas “simples”.
-    <h2>Uma leve introdução sobre o assunto</h2>
+    
     </p>
+    <h2>Uma leve introdução sobre o assunto</h2>
+    <img src="./img/imagem_3.jpg" class="header-img4" alt="Imagem ODS"></img>
     <p>
         De forma resumida, nossa ideia e objetivo é oferecer suporte a empresas e indivíduos interessados na ODS 7, 
         por meio de orientações e propostas sobre como incorporar mais energias renováveis e aprimorar a eficiência energética. 
@@ -222,7 +227,7 @@ a {
     <header class="header-container4">
         <h1>Como pretendemos por em prática</h1>
         <div class="text-container">
-            <img src="./img/energiaverde.jpg" class="header-img4" alt="Imagem ODS"></img>
+            <img src="./img/imagem_4.jpg" class="header-img4" alt="Imagem ODS"></img>
             <p>Nosso objetivo é orientar os usuários a conhecerem as energias renováveis e a utilizá-las com prudência. Além disso, 
                 buscamos promover a integração dessas fontes de energia na matriz energética global, por meio de parcerias com empresas 
                 que tenham interesse em estimular o uso de energias limpas, que não prejudicam o meio ambiente.</p>

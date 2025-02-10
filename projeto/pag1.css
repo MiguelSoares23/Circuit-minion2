@@ -81,6 +81,11 @@ h1 {
   margin-top: 10px; /* Espaço entre o título e a imagem */
 }
 
+.header-container2 a {
+  color:blue;
+  text-decoration: underline;
+}
+
 
 
 .active {
