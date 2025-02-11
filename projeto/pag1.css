@@ -4,7 +4,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+nav ul {
   display: flex;
   list-style-type: none;
   align-items: center;
@@ -81,6 +81,11 @@ h1 {
   margin-top: 10px; /* Espaço entre o título e a imagem */
 }
 
+.header-container2 a {
+  color: blue;
+  text-decoration: underline;
+}
+
 
 
 .active {
@@ -94,4 +99,25 @@ main a {
   color: blue; /* Links dentro do <main> ficarão azuis */
   text-decoration: underline; /* Adiciona o sublinhado para indicar que é um link */
 }
+
+.alinha {
+  list-style-type: none; /* Remove os marcadores padrão da lista */
+  padding: 0; /* Remove o espaçamento interno */
+  margin: 0; /* Remove a margem padrão */
+}
+
+.alinha li {
+  display: flex; /* Mantém o item da lista alinhado corretamente */
+  align-items: center; /* Garante alinhamento vertical */
+}
+
+.alinha li::before {
+  content: "🔹"; /* Escolha o marcador desejado */
+  color: #6c53fc; /* Cor do marcador */
+  font-size: 1.2em; /* Ajuste o tamanho */
+  margin-right: 8px;
+  display: inline-block; /* Mantém o marcador na linha do texto */
+  vertical-align: middle; /* Ajusta o alinhamento vertical */
+}
+
 
