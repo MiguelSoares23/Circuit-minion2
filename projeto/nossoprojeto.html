@@ -11,7 +11,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+nav ul {
     display: flex;
     list-style-type: none;
     align-items: center;
@@ -98,7 +98,7 @@ a {
 }
 
 .header-img3 {
-  max-width: 300px; /* Define o tamanho máximo da imagem */
+  max-width: 400px; /* Define o tamanho máximo da imagem */
   margin-top: 10px; /* Espaço entre o título e a imagem */
 }
 
@@ -127,6 +127,27 @@ h1, h2 {
     justify-content: center; /* Centraliza verticalmente */
     text-align: center;
 }
+
+.alinha2 {
+  list-style-type: none; /* Remove os marcadores padrão da lista */
+  padding: 0; /* Remove o espaçamento interno */
+  margin: 0; /* Remove a margem padrão */
+}
+
+.alinha2 li {
+  display: flex; /* Mantém o item da lista alinhado corretamente */
+  align-items: center; /* Garante alinhamento vertical */
+}
+
+.alinha2 li::before {
+  content: "🔹"; /* Escolha o marcador desejado */
+  color: #6c53fc; /* Cor do marcador */
+  font-size: 1.2em; /* Ajuste o tamanho */
+  margin-right: 8px;
+  display: inline-block; /* Mantém o marcador na linha do texto */
+  vertical-align: middle; /* Ajusta o alinhamento vertical */
+}
+
 
 
 
@@ -168,11 +189,13 @@ h1, h2 {
             tivemos ideias de pôr isso em prática de formas “simples”.
     </p>
     <h2>Uma leve introdução sobre o assunto</h2>
-    <img src="./img/ods78.jpg" class="header-img3" alt="Imagem ODS"></img>
+    <img src="./img/imagem_3.jpg" class="header-img3" alt="Imagem ODS"></img>
     <p>
         De forma resumida, nossa ideia e objetivo é oferecer suporte a empresas e indivíduos interessados na ODS 7, 
         por meio de orientações e propostas sobre como incorporar mais energias renováveis e aprimorar a eficiência energética. 
     </p>
+    <ul class="alinha2">
+        <li>
     <p>E como faríamos isso? Tivemos a ideia de impor alguns painéis solares em fábricas ou em lugares desertos e bastante luz solar, 
         e transferir essa energia extraída daquele local para locais mais pobres. Os aparelhos de energia solar são caros e hoje não 
         temos tanto recurso para sair distribuindo painéis solares a rodo, então, pequenas quantidades de painéis solares seriam 
@@ -180,20 +203,28 @@ h1, h2 {
         que carecem de energia elétrica, mas isso seria apenas um teste, para ver se isso daria certo de alguma forma, 
         já que na prática, sabemos que isso é muito difícil e complicado, tanto por conta do alto custo, quanto por conta de falta de 
         pessoas no poder que estariam interessados em fazer isso acontecer.</p>
+    </li>
+<li>
         <p> Nosso plano de distribuição seria: entrar em contato com empresas, engenhos, ou donos de locais que se encaixem nos padrões que nós procuramos, 
             assim poderíamos implantar as turbinas eólicas e/ou os painéis solares. Sabemos que é difícil conseguir apoio ou material para tal projeto, 
             mas escolhemos focar justamente na energia solar e na energia eólica.
         </p>
+    </li>
         <img src="./img/imagem_4.jpg" class="header-img3" alt="Imagem ODS"></img>
+    <li>
         <p>Como pensamos em distribuir esse modo de energia acessível? Como entraremos em contato com empresas e afins, pensamos que toda a energia extraída dos painéis solares 
             e nos aerogeradores que colocamos nos locais e transferir aquela energia feita ali para algum local de baixa renda e com pouco/quase nenhum acesso a energia, 
             para que com a ajuda do nosso projeto, moradores desses locais possam ter a devida ajuda.
         </p>
+    </li>
+<li>
         <p>
             As ideias expostas aqui são baseadas em ideias já existentes, pensamos não somente em nós ou nas empresas, mas na população que sofre com a falta de energias limpas 
             e acessíveis, por parte do governo, já que atualmente não existem governos/leis que asseguram o fácil acesso à energia limpa e acessível para as comunidades de 
             difícil acesso. 
         </p>
+    </li>
+    </ul>
     </div>
 
     <div class="center2">
