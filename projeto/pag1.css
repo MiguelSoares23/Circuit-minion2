@@ -1,123 +1,160 @@
 body {
   color: black;
-  background-color: whitesmoke;
+  background-color: #fdfada;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-nav ul {
+ }
+ 
+ 
+ nav ul {
   display: flex;
   list-style-type: none;
   align-items: center;
   padding: 0;
   gap: 20px;
   margin: 0; /* Remove margens extras */
-}
-
-a {
+ }
+ 
+ 
+ a {
   color: white;
   text-decoration: none;
-}
-
-.oi a:hover {
-color: #6c53fc;
-}
-
-.oi {
-background-color: #0a369d;
-display: flex;
-align-items: center;
-justify-content: space-between; /* Mantém a logo à esquerda e os links à direita */
-padding: 10px 20px; /* Adiciona um espaçamento interno */
-}
-
-.logo-container {
+ }
+ 
+ 
+ .oi a:hover {
+ color: #6c53fc;
+ }
+ 
+ 
+ .oi {
+ background-color: #0a369d;
+ display: flex;
+ align-items: center;
+ justify-content: space-between; /* Mantém a logo à esquerda e os links à direita */
+ padding: 10px 20px; /* Adiciona um espaçamento interno */
+ }
+ 
+ 
+ .logo-container {
           display: flex;
           align-items: center;
       }
-
+ 
+ 
       .logo {
           width: 150px; /* Ajuste conforme necessário */
           margin-right: 120px;
       }
-
-.oi a {
-color: white;
-font-weight: bold;
-text-decoration: none;
-padding: 8px 12px;
-transition: 0.3s;
-}
-
-.oi ul {
-margin-left: auto;
-}
-
-.header-container {
+ 
+ 
+ .oi a {
+ color: white;
+ font-weight: bold;
+ text-decoration: none;
+ padding: 8px 12px;
+ transition: 0.3s;
+ }
+ 
+ 
+ .oi ul {
+ margin-left: auto;
+ }
+ 
+ 
+ .header-container {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   margin: 20px; /* Adiciona espaçamento ao redor do header */
-}
-
-h1 {
+ }
+ 
+ 
+ h1 {
   font-family: cursive;
-}
-
-.header-img {
+ }
+ 
+ 
+ .header-img {
   max-width: 300px; /* Define o tamanho máximo da imagem */
   margin-right: 20px; /* Espaço entre a imagem e o título */
-}
-
-.header-container2 {
+ }
+ 
+ 
+ .header-container2 {
   display: flex;
   flex-direction: column; /* Organiza o título acima da imagem */
   align-items: flex-start;
   justify-content: flex-start;
   margin: 20px;
-}
-
-.header-img2 {
+ }
+ 
+ 
+ .header-img2 {
   max-width: 300px; /* Define o tamanho máximo da imagem */
   margin-top: 10px; /* Espaço entre o título e a imagem */
-}
-
-.header-container2 a {
+ }
+ 
+ 
+ .header-container2 a {
   color: blue;
   text-decoration: underline;
-}
-
-
-
-.active {
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .active {
   background-color: #6c53fc; /* Cor de fundo diferente para destacar */
   color: white; /* Mantém a cor do texto */
   border-radius: 15px; /* Bordas arredondadas */
   padding: 8px 12px; /* Mantém o mesmo espaçamento */
-}
-
-main a {
+ }
+ 
+ 
+ main a {
   color: blue; /* Links dentro do <main> ficarão azuis */
   text-decoration: underline; /* Adiciona o sublinhado para indicar que é um link */
-}
-
-.alinha {
+ }
+ 
+ 
+ .alinha {
   list-style-type: none; /* Remove os marcadores padrão da lista */
   padding: 0; /* Remove o espaçamento interno */
   margin: 0; /* Remove a margem padrão */
-}
-
-.alinha li {
+ }
+ 
+ 
+ .alinha li {
   display: flex; /* Mantém o item da lista alinhado corretamente */
   align-items: center; /* Garante alinhamento vertical */
-}
-
-.alinha li::before {
+ }
+ 
+ 
+ .alinha li::before {
   content: "🔹"; /* Escolha o marcador desejado */
   color: #6c53fc; /* Cor do marcador */
   font-size: 1.2em; /* Ajuste o tamanho */
   margin-right: 8px;
   display: inline-block; /* Mantém o marcador na linha do texto */
   vertical-align: middle; /* Ajusta o alinhamento vertical */
-}
-
-
+ }
+ 
+ 
+ figure {
+  color: black;
+ }
+ 
+ .underline {
+  text-decoration: none;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
