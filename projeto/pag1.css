@@ -75,7 +75,7 @@ body {
  
  
  .header-img {
-  max-width: 300px; /* Define o tamanho máximo da imagem */
+  max-width: 400px; /* Define o tamanho máximo da imagem */
   margin-right: 20px; /* Espaço entre a imagem e o título */
  }
  
@@ -90,7 +90,7 @@ body {
  
  
  .header-img2 {
-  max-width: 300px; /* Define o tamanho máximo da imagem */
+  max-width: 400px; /* Define o tamanho máximo da imagem */
   margin-top: 10px; /* Espaço entre o título e a imagem */
  }
  
